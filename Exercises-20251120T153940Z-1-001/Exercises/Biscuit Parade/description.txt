@@ -1,0 +1,13 @@
+RULES:
+
+	IN THIS CHALLENGE YOU CANNOT LOOK AT THE webapp FOLDER!
+
+	In order to get the points of this challenge, you need to provide a 
+	detailed description of the procedure that you used to get the flag.
+	Otherwise we account for the flag as read by the web application folder itself.
+
+HOW TO RUN THE CHALL:
+
+	To run the challenge follow comands in docker_cmds.txt
+
+	The descriprion of the challenge itself is on the webpage.

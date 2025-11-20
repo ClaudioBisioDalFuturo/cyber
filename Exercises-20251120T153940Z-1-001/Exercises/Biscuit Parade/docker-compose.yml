@@ -1,0 +1,15 @@
+version: "3.9"
+
+services:
+  web:
+    image: cpp/biscuit_parade_web
+    build: .
+    container_name: biscuit_parade_web
+    ports:
+      - "10000:5000"
+    environment:
+      - FLASK_APP=app
+      - FLASK_ENV=development
+    volumes:
+      - ./webapp:/app
+    restart: unless-stopped
